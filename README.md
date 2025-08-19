@@ -1,24 +1,22 @@
-﻿# Vehicle-Project
+# 🚗 Vehicle Info Website  
 
-🚗 Vehicle Info Website
 
-Bu proje, araçlar hakkında bilgi sunan modern ve responsive bir web sayfasıdır.
-HTML5 ve CSS3 kullanılarak tasarlanmış olup, flexbox ve grid yapılarıyla düzenlenmiştir.
+![Vehicle-Project](https://github.com/user-attachments/assets/eecffd84-0b5a-41d3-90e3-b353b00df994)
 
-🎯 Özellikler
 
-🌐 Basit ve kullanıcı dostu arayüz
+## 📖 Açıklama  
+Bu proje, araçlarla ilgili bilgileri modern bir arayüzle sunan web sayfasıdır.  
+HTML ve CSS kullanılarak hazırlanmış, kart tasarımları ve animasyonlarla zenginleştirilmiştir.  
+Hem masaüstü hem de mobil cihazlarda kullanıcı dostu deneyim sağlamayı hedefler.  
 
-🔥 Araç markaları için kart tasarımları
+## ✨ Özellikler  
+- 🌐 Responsive tasarım (masaüstü & mobil)  
+- 🎨 Hover ve animasyon efektleri  
+- 🖼️ Marka kartları ve görseller  
+- ⚡ Hafif ve hızlı yapı  
 
-🎨 Hover ve animasyon efektleri
-
-📱 Responsive tasarım (masaüstü & mobil uyumlu)
-
-🛠️ Kullanılan Teknolojiler
-
-HTML5
-
-CSS3 (Flexbox & Grid)
-
-Google Fonts & Icon Libraries
+## 🛠️ Kullanılan Teknolojiler  
+- HTML5  
+- CSS3 (Flexbox & Grid)  
+- Google Fonts  
+- Bootstrap Icons & Font Awesome  
