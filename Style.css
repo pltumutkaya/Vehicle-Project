@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* * Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Root örneğin bir sitede verilmiş bir çok stillendirme mesela kırmızı butonlar var 4 tane talep her kırmızı yerine mavi olsun gibi elemanlara teker teker ulaşmadan müdahale etmenin yolu root aşağıdaki gibi kullanılıyor. Yani aslında kullanılacak tüm renkleri ya da elemanları baştan nitelendirmeye yarıyor.
+Diğer bir deyişle proje içerisindeki yönetimi kolaylaştırmak için root yani kök dizinde birden fazla yerde kullanacaksak mesela bir buton yapıcaz ki 20 yerde olacak still özelliklerini yönetmek için kullnılır. Root içerisinde bir değer tanımlarken --değerAdı:değerinKarşılığı şeklinde tanımlarız. Kullanılacak yerde ise var(--değerAdı) şeklinde tanımlanır.
+*/
+
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --seperation-color: #363636;
+  --red-color: red;
+  --btn-colo: #151411;
+}
+
+body {
+  background-color: var(--seperation-color);
+  color: var(--white-color-white-color);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  padding: 100px;
+}
+header .logo {
+  width: 200px;
+  z-index: 1;
+}
+
+header .nav {
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  color: var(--white-color);
+  gap: 30px;
+}
+
+header .nav a {
+  padding: 5px;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+header .nav a:hover {
+  text-decoration: underline;
+}

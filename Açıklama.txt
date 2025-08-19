@@ -1,0 +1,24 @@
+"echo "projeAdı buraya girilecek" >> README.md"                      --> GitHub'a gönderilecek proje içerisinde bir readme dosyası oluşturur. Bu dosya içerisinde proje tanıtıtımı yaparız.
+"git init"                                                              --> GitHub'da oluşturulacak repoyu aktif eder.
+
+"git add README.md" [gönderilecek_dosyaların_adı]                       --> GitHub'a gönderilecek dosyaları paketler, gönderilmeye hazır hale getirir.
+"git add ."                                                             --> GitHub'a tüm dosyaları paketler, gönderilmeye hazır hale getirir.
+git commit -m "first commit"                                            --> Bu kod değişikliklerden sonra açıklama eklemeye yarar.
+git branch -M main                                                      --> Branch okuşturma ve branchler arasında geçiş yapmak için projelerde çokça kullanılılır. Bu noktada bilmemiz gereken komutlar:
+"git branch" --> Projedeki aktif branchler hangileri ve biz hangi branchteyiz onu gösterir. 
+"git checkout [Branch Adı]" --> Branchler arasında geçiş yapmamızı sağlar.
+"git push origin [ Branch Adı]" --> Belirtilen branchle pushlama yapmak için kullanılır. 
+
+
+git remote add origin https://github.com/pltumutkaya/deneme-14-hi.git   -->
+git push -u origin main                                                 -->
+git pull                                                                --> GitHub'da yapılan değişiklikleri localimize çekmek için kullanılır.
+
+
+
+
+
+
+
+
+
