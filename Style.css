@@ -28,7 +28,29 @@ body {
 .flex-box {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px 5px;
+  margin: auto;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.4s linear;
+  margin-bottom: px;
+}
+.seperation {
+  border-bottom: 5px solid rgba(36, 36, 36, 0.8);
+  margin: 60px 0px;
+  padding: 10px 10px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: white;
 }
 
 header {
@@ -36,19 +58,23 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 80%;
-  height: 200px;
+  height: 120px;
   margin: auto;
-  padding: 100px;
+  padding: 10px 40px;
+  z-index: 100;
+  margin-top: 50px;
 }
 header .logo {
   width: 200px;
-  z-index: 1;
+  height: 200px;
+  z-index: 100;
 }
 
 header .nav {
+  align-items: center;
   display: flex;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   padding: 20px;
   color: var(--white-color);
   gap: 30px;
@@ -61,39 +87,86 @@ header .nav a {
   font-size: 20px;
   cursor: pointer;
   margin-bottom: 10px;
+  border-bottom: 3px solid transparent;
+  border-radius: 2px;
+  padding-bottom: 5px;
 }
 
 header .nav a:hover {
-  text-decoration: underline;
-  margin-bottom: 10px;
+  border-bottom: 3px solid white;
+  border-radius: 2px;
+  padding-bottom: 5px;
+  position: relative;
 }
 
 .welcome {
+  background: linear-gradient(to right, rgb(196, 196, 196), rgb(175, 1, 25));
+  box-shadow: 0px 15px 20px gray;
+  background: linear-gradient(
+    to right,
+    rgb(161, 161, 161),
+    rgba(255, 0, 34, 0.4)
+  );
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.left-container {
+  margin: 10px;
+  margin-top: 10px;
+  padding: 10px 10px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 150px;
+}
+
+.welcome .left-container img {
+  width: 600px;
+  height: 600px;
+}
+
+.right-container {
+  flex-direction: column;
+  width: 80%;
+  height: 400px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  margin-right: 150px;
+}
+
+.right-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.right-container p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.middle-container {
   background-color: red;
-  width: 90%;
+}
+
+.carts-stage {
+  background-color: red;
+  width: 80%;
   height: 300px;
   margin: auto;
-  padding: 20px 20px;
-  border-radius: 10px;
-}
-.welcome .welcome-container {
-  background-color: burlywood;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: auto;
+  border-radius: 20px;
+  gap: 10px;
 }
 
-.welcome .welcome-text {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: auto;
-  gap: 40px;
-}
-
-.welcome-image {
-  font-size: 100px;
-  color: white;
-  z-index: 100;
+.carts-stage .carts-container {
+  background-color: gray;
+  width: 90%;
+  height: 90%;
+  margin: 40px 20px 20px 20px; /* üstten 40px boşluk */
+  padding: 15px 10px;
 }
